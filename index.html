@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Carousel</title>
+</head>
+<body>
+    <main class="box">
+        <figure class="images">
+            <img src="./images/1.jpeg" alt="" class="image image-1 image--active">
+            <img src="./images/15.jpeg" alt="" class="image image-2">
+            <img src="./images/16.jpeg" alt="" class="image image-3">
+            <img src="./images/2.jpeg" alt="" class="image image-4">
+            <img src="./images/25.jpeg" alt="" class="image image-5">
+        </figure>
+        <button class="slider slider-left">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="slider slider-right">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="circles">
+            <button data-index="0" class="circle circle--active">o</button>
+            <button data-index="1" class="circle">o</button>
+            <button data-index="2" class="circle">o</button>
+            <button data-index="3" class="circle">o</button>
+            <button data-index="4" class="circle">o</button>
+        </div>
+    </main>
+    <script defer src="index.js"></script>
+</body>
+</html>
