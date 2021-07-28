@@ -8,7 +8,7 @@ JAVASCRIPT
 
 
 ### Live Demoe
-[watch live](https://johongirr.github.io/memory-game/)
+[watch live](https://johongirr.github.io/image-slider-js/)
 
 
 ### Author
