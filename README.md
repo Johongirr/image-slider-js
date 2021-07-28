@@ -1,4 +1,4 @@
-### Calculator App built by Johongir
+### Image slide app built by Johongir
 
 ### Tools used
 HTML5\
