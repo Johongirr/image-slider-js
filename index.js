@@ -1,8 +1,8 @@
-const images = document.querySelectorAll("img");
+const images = document.querySelectorAll(".slider .slider__img");
 const circles = document.querySelectorAll(".circle");
-const imgContainer = document.querySelector(".images");
-const sliderLeftBtn = document.querySelector(".slider-left");
-const sliderRightBtn = document.querySelector(".slider-right");
+const imgContainer = document.querySelector(".slider .slider__box");
+const sliderLeftBtn = document.querySelector(".slider .slider__left-btn");
+const sliderRightBtn = document.querySelector(".slider .slider__right-btn");
 
 let counter = 0;
 const imgWidth = images[0].width;
